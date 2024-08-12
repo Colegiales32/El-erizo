@@ -8,9 +8,9 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_image_1 from '../../public/taller.jpg';
-import slide_image_2 from '../../public/laminadora.jpg';
-import slide_image_3 from '../../public/pinceles.jpg';
+import slide_image_1 from '/taller.jpg';
+import slide_image_2 from '/laminadora.jpg';
+import slide_image_3 from '/pinceles.jpg';
 
 
 
@@ -20,7 +20,7 @@ const Eltaller = () => {
 
 
   return (
-    <div className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] md:mx-[7.2rem]'>
+    <div className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] mb-24 md:mx-[7.2rem]'>
         <div className='lg:w-[20rem] mb-5 mx-auto'>
             <p className='my-auto lg:max-w-xl text-sm md:text-xl leading-7 md:leading-10 font-light'>
             <span className='text-7xl font-bold'>El taller</span>cuenta con mas de XX cantidad de tornos y XX de hornos especificios para cada actividad, ademas contamos con X aulas equipadas con todo lo necesario y mas...

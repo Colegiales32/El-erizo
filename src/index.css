@@ -174,12 +174,12 @@ a.link-active {
 
 
 ::-webkit-scrollbar {
-  width: 1.3rem;
+  width: 0.6rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 1rem;
-  background: #797979;
+  border-radius: 10px;
+  background: #ffc4af;
   transition: all 0.5s ease-in-out;
 }
 
@@ -188,7 +188,7 @@ a.link-active {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f9f9f9;
+  background:transparent;
 }
 
 
