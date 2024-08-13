@@ -163,8 +163,8 @@ a.link-active {
 .sombra {
   box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.25);
  }
- .sobmra-lg {
-  box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+ .sombra-lg {
+  box-shadow: 0px 8px 14px 10px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
  }
 
  /*Swiper */

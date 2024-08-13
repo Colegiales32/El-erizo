@@ -2,7 +2,8 @@ import React from 'react'
 
 const Horneado = () => {
   return (
-    <div class="h-auto selection:bg-celeste mt-5 mb-16 md:mb-24 md:mt-8 md:h-min-[14rem] lg:h-[14rem] font-calibri p-[1rem] bg-[#FCDED3] rounded-[10px] mx-[1.2rem] md:mx-[6rem] xl:mx-[22rem] 2xl:mx-[52rem] flex flex-col-reverse md:flex-row-reverse gap-5 justify-between items-center sombra">
+    <div class="h-auto selection:bg-celeste mt-5 mb-16 md:mb-24 md:mt-8 md:h-min-[14rem] lg:h-[14rem] font-calibri p-[1rem] bg-[#FCDED3] rounded-[10px] mx-[1.2rem] md:mx-[6rem] lg:w-[46rem] lg:mx-auto flex flex-col-reverse md:flex-row-reverse gap-5 justify-between items-center sombra">
+
         <div className="w-full h-full md:max-w-[14rem] md:min-w-[14rem]  overflow-hidden rounded-[10px]">
             <img className=' aspect-square w-full object-cover' src="/horneado.jpg" alt="imagen del curso" />
         </div>

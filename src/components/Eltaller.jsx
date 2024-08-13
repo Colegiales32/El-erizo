@@ -20,10 +20,10 @@ const Eltaller = () => {
 
 
   return (
-    <div className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] mb-24 md:mx-[7.2rem]'>
-        <div className='lg:w-[20rem] mb-5 mx-auto'>
-            <p className='my-auto lg:max-w-xl text-sm md:text-xl leading-7 md:leading-10 font-light'>
-            <span className='text-7xl font-bold'>El taller</span>cuenta con mas de XX cantidad de tornos y XX de hornos especificios para cada actividad, ademas contamos con X aulas equipadas con todo lo necesario y mas...
+    <div className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] mb-24 md:mx-[7.2rem] lg:mx-auto max-w-[75rem] justify-between'>
+        <div className='lg:w-[20rem] mb-5'>
+            <p className='my-auto ml-0 lg:max-w-xl text-sm md:text-xl leading-7 text-claro md:leading-10 font-light'>
+            <span className='text-7xl text-oscuro font-bold'>El taller</span>cuenta con mas de XX cantidad de tornos y XX de hornos especificios para cada actividad, ademas contamos con X aulas equipadas con todo lo necesario y mas...
             </p>
         </div>
 
@@ -80,7 +80,7 @@ const Eltaller = () => {
         </div>
       </Swiper>
     </div>
-  <div className='hidden lg:flex flex-row justify-around items-center w-[51rem]'>
+  <div className='hidden mr-0 lg:flex flex-row justify-around items-center w-[51rem]'>
   <img className='h-[12rem] rounded-[10px]  aspect-square object-cover sombra' src={slide_image_1} alt="slide_image" />
   <img className='h-[19rem]  rounded-[10px] object-cover aspect-square sombra-lg' src={slide_image_2} alt="slide_image" />
   <img className='h-[12rem] object-cover aspect-square rounded-[10px] sombra' src={slide_image_3} alt="slide_image" />
