@@ -20,7 +20,7 @@ const Eltaller = () => {
 
 
   return (
-    <div className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] mb-24 md:mx-[7.2rem] lg:mx-auto max-w-[75rem] justify-between'>
+    <div className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] mb-24 md:mx-[7.2rem] lg:mx-auto max-w-[75rem] 2xl:mx-auto  justify-between'>
         <div className='lg:w-[20rem] mb-5'>
             <p className='my-auto ml-0 lg:max-w-xl text-sm md:text-xl leading-7 text-claro md:leading-10 font-light'>
             <span className='text-7xl text-oscuro font-bold'>El taller</span>cuenta con mas de XX cantidad de tornos y XX de hornos especificios para cada actividad, ademas contamos con X aulas equipadas con todo lo necesario y mas...
