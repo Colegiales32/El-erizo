@@ -2,7 +2,8 @@ import React from 'react'
 
 const Nosotros = () => {
   return (
-    <div className="flex mt-5 md:mt-8 flex-col-reverse lg:flex-row mx-[1.2rem] md:mx-[7.2rem] gap-[1.25rem] md:gap-[2.25rem] justify-between 2xl:mx-[22rem] xl:justify-center 2xl:gap-8">
+    <div className="flex mt-5 md:mt-8 flex-col-reverse lg:flex-row mx-[1.2rem] md:mx-[7.2rem] xl:mx-auto gap-[2rem] max-w-[75rem] ">
+      
         <div className="w-full sombra h-full lg:max-w-[36rem] lg:min-w-[25rem] overflow-hidden rounded-[10px]">
             <img className='aspect-square lg:aspect-video w-full h-[20rem] object-cover' src="/nosotros.jpeg" alt="imagen de nosotros" />
         </div>
