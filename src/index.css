@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+position: relative;
+
+}
+
 html,body {
   margin: 0;
   padding: 0;

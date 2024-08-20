@@ -4,6 +4,25 @@ import Burguer from './Burguer';
 const Nav = () => {
     const [clicked, setClicked] = useState(false);
     const [activeLink, setActiveLink] = useState(''); // Estado para el enlace activo
+
+    const handleScroll = (e) => {
+        e.preventDefault(); // Prevenir el comportamiento por defecto del enlace
+        const targetId = e.currentTarget.getAttribute('href'); // Obtiene el ID de la sección
+        const targetElement = document.querySelector(targetId); // Selecciona la sección destino
+
+        if (targetElement) {
+            const offsetTop = targetElement.offsetTop; // Obtiene la posición de la sección
+            window.scrollTo({
+                top: offsetTop - 96, // Ajusta la posición del scroll restando la altura del nav
+                behavior: 'smooth', // Añade un desplazamiento suave
+            });
+        }
+    };
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach((link) => {
+      link.addEventListener('click', handleScroll);
+    });
+
     
     const handleClick = () => {
         setClicked(!clicked);
@@ -17,8 +36,8 @@ const Nav = () => {
 
 
     return (
-        <nav className="h-24 sombra flex items-center bg-rosa-claro">
-            <div className="lg:mx-16 mx-5 w-full flex flex-row my-auto justify-between selection:bg-celeste">
+        <nav className="fixed top-0 w-full z-50 h-24 sombra flex items-center bg-rosa-claro">
+            <div className="lg:mx-16 mx-5 w-full flex flex-row justify-between selection:bg-celeste">
                 <div>
                     <img src="/logofondo.jpg" alt="logo taller" className="w-16" />
                 </div>
