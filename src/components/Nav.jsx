@@ -75,7 +75,7 @@ const Nav = () => {
                         onClick={() => handleLinkClick('Otras Opciones')}
                         className={activeLink === 'Otras Opciones' ? 'link-active' : ''}
                     >
-                        Otras Opciones
+                        Otras opciones
                     </a>
                     <a
                         href="#contacto"
@@ -145,7 +145,7 @@ const Nav = () => {
                         onClick={() => handleLinkClick('Otras Opciones')}
                         className={activeLink === 'Otras Opciones' ? 'link-active' : ''}
                     >
-                        Otras Opciones
+                        Otras opciones
                     </a>
                     <a
                         href="#contacto"
@@ -156,7 +156,7 @@ const Nav = () => {
                     </a>
                     </div>
                     
-                <div className="h-1/6 pb-12 flex items-center justify-center flex-row gap-8">
+                <div className="h-1/6 pb-22 flex items-start justify-start flex-row gap-8">
                         
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34" viewBox="0 0 35 34" fill="none">
                         <path d="M1.5 17C1.5 9.45811 1.5 5.68547 3.84274 3.34274C6.18547 1 9.95642 1 17.5 1C25.0419 1 28.8145 1 31.1573 3.34274C33.5 5.68547 33.5 9.45642 33.5 17C33.5 24.5419 33.5 28.3145 31.1573 30.6573C28.8145 33 25.0436 33 17.5 33C9.95811 33 6.18547 33 3.84274 30.6573C1.5 28.3145 1.5 24.5436 1.5 17Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
