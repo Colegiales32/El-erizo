@@ -14,12 +14,12 @@ const Contacto = () => {
         
         setTimeout(() => {
             setMensajeEnviado(false)
-        }, 4000);
+        }, 3000);
     }
     
     const handleSubmit = (event) => {
         event.preventDefault(); // Previene el comportamiento por Default del Elemento
-        const serviceId = "service_p51ujsg";
+        const serviceId = "service_38c4hpn";
         const templateId= "template_0izxsir";
         
         const apikey = "4zJBLlGcN_nk6gRGs";
@@ -70,15 +70,19 @@ const Contacto = () => {
                 <form action=""  ref={refForm} onSubmit={handleSubmit} className=' flex flex-col text-claro  gap-[1.25rem] '>        
                         <input type="text " className='rounded-md h-[2.2rem] lg:h-[3.5rem] px-[1rem] text-sm lg:text-lg bg-rosa-claro'  placeholder='Tu Nombre' name='nombre' required />            
                         <input type="email" className='rounded-md h-[2.2rem] lg:h-[3.5rem] px-[1rem] text-sm lg:text-lg bg-rosa-claro'  placeholder='Email' name='email' required />               
-                        <input type="number" required className='rounded-md h-[2.2rem] lg:h-[3.5rem] px-[1rem] text-sm lg:text-lg bg-rosa-claro'   placeholder='Telefono' name='telefono'/>                     
+                        <input type="tel" required className='rounded-md h-[2.2rem] lg:h-[3.5rem] px-[1rem] text-sm lg:text-lg bg-rosa-claro'   placeholder='Telefono' name='telefono'/>                     
                        <textarea name="mensaje" id="" placeholder='Dejanos tu mensaje' className='rounded-md h-[8rem] lg:h-[10rem] p-[1rem] text-sm lg:text-lg bg-rosa-claro' required />
+                       
+                       <div className={`${mensajeEnviado===true ? 'h-11' : 'h-0'} flex justify-center rounded-lg items-center transition-all duration-200 bg-green-600`}>
+                    <p className={`${mensajeEnviado === true ? 'opacity-1' : 'opacity-0'} text-center my-auto text-lg  font-path font-bold`}>Mensaje enviado</p>
+                </div>
 
-                </form>
                 <div className='w-full text-center lg:text-right pb-[1rem]'>
-                <button onClick={handleEnviado} class="w-[8rem] h-[3rem] pl-[1rem] pr-[1rem] py-[0.5rem] bg-[#51cec1] rounded-[1rem] justify-center items-center inline-flex lg:ml-0">
+                <button class="w-[8rem] h-[3rem] pl-[1rem] pr-[1rem] py-[0.5rem] bg-[#51cec1] rounded-[1rem] justify-center items-center inline-flex lg:ml-0">
                     <a class="text-center text-[#272727] text-base font-bold font-['Calibri']">Enviar</a>
                 </button>
                 </div>
+                </form>
             </div>
         </div>
     </div>

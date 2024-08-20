@@ -17,7 +17,7 @@ const Eventos = () => {
         titulo="Cafe y ceramica"
         />
         <Cards 
-        imagen="/evento.jpg"
+        imagen="/evento1.jpg"
         texto="Evento de vino y ceramica en Nela Cafe, veni a disfrutar de un buen vino y llevate tu pieza"
         titulo="Cafe y ceramica"
         />
