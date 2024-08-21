@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Boton from './Boton';
 
 
 const Contacto = () => {
@@ -78,9 +79,7 @@ const Contacto = () => {
                 </div>
 
                 <div className='w-full text-center lg:text-right pb-[1rem]'>
-                <button class="w-[8rem] h-[3rem] pl-[1rem] pr-[1rem] py-[0.5rem] bg-[#51cec1] rounded-[1rem] justify-center items-center inline-flex lg:ml-0">
-                    <a class="text-center text-[#272727] text-base font-bold font-['Calibri']">Enviar</a>
-                </button>
+                <Boton texto='Enviar'/>
                 </div>
                 </form>
             </div>

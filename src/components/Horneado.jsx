@@ -1,4 +1,5 @@
 import React from 'react'
+import Boton from './Boton'
 
 const Horneado = () => {
   return (
@@ -7,15 +8,13 @@ const Horneado = () => {
         <div className="w-full h-full md:max-w-[14rem] md:min-w-[14rem]  overflow-hidden rounded-[10px]">
             <img className=' aspect-square w-full object-cover' src="/horneado.jpg" alt="imagen del curso" />
         </div>
-    <div class="flex flex-col justify-between items-start">
-        <h2 class="self-stretch h-[1.875rem] text-[#272727] text-[1.375rem] font-bold break-words">Servicio de Horneado</h2>
+    <div class="flex flex-col justify-between lg:h-[12rem] items-start">
+        <h2 class="self-stretch h-[1.875rem] text-[#272727] text-[1.375rem] font-medium break-words">Servicio de Horneado</h2>
         <p class="self-stretch text-[#474747] text-[0.875rem] font-light leading-[1.625rem] break-words">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus nunc vel fringilla placerat. Nam sit amet metus mi. Vivamus in ligula et lacus varius sagittis. Suspendisse sem odio, pretium at magna sodales, consectetur malesuada eros.
         </p>
-        <div class="mx-auto md:ml-0 h-[2rem] flex justify-center items-center md:items-start mt-[1rem]">
-            <div class="w-full py-[0.6rem] px-[1rem] bg-[#52CEC2] rounded-[0.625rem] flex justify-center items-center">
-                <div class="text-center text-[#272727] text-[0.75rem] font-normal">Conocer más</div>
-            </div>
+        <div class="mx-auto md:ml-0 flex justify-center items-center md:items-start mt-[1rem]">
+            <Boton texto='Conocer mas'/>
         </div>
     </div>
 </div>

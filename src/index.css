@@ -19,6 +19,19 @@ html,body {
 
   body {overflow-x: hidden;}
 
+  button:hover {
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  }
+
+nav a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+  nav a:hover {
+  transform: scale(1.1);
+  }
+
 /* Menu Hamburguesa */
 .nav-icon-5{
   width: 35px;

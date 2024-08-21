@@ -1,4 +1,5 @@
 import React from 'react'
+import Boton from './Boton'
 
 const Cursos = () => {
   return (
@@ -12,9 +13,7 @@ const Cursos = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus nunc vel fringilla placerat. Nam sit amet metus mi. Vivamus in ligula et lacus varius sagittis. Suspendisse sem odio, pretium at magna sodales, consectetur malesuada eros.
         </p>
         <div class="mx-auto md:mr-0 h-[2rem] flex justify-center items-center md:items-start mt-[1rem]">
-            <div class="w-full py-[0.6rem] px-[1rem] bg-[#52CEC2] rounded-[0.625rem] flex justify-center items-center">
-                <div class="text-center text-[#272727] text-[0.75rem] font-normal">Conocer más</div>
-            </div>
+            <Boton texto='Conocer mas'/>
         </div>
     </div>
 </div>
