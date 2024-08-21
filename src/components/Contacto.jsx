@@ -69,10 +69,10 @@ const Contacto = () => {
             <div className='flex flex-col mx-[2.1rem] lg:mx-[5rem] justify-around h-[35rem] lg:gap-[2rem] pt-[1.4rem]'>
                 <p className='text-base lg:text-lg text-center text-oscuro leading-9 font-light '>Dejanos  tu consulta junto con tus datos de contacto y cuanto antes vamos a comunicarnos con vos para responderte todas tus dudas.</p>
                 <form action=""  ref={refForm} onSubmit={handleSubmit} className=' flex flex-col text-claro gap-2 md:gap-[1rem] '>        
-                        <input type="text " className='rounded-md h-[2.2rem] xl:h-[3rem] px-[1rem] text-sm lg:text-lg bg-rosa-claro'  placeholder='Tu Nombre' name='nombre' required />            
-                        <input type="email" className='rounded-md h-[2.2rem] xl:h-[3rem]  px-[1rem] text-sm lg:text-lg bg-rosa-claro'  placeholder='Email' name='email' required />               
-                        <input type="tel" required className='rounded-md h-[2.2rem] xl:h-[3rem]  px-[1rem] text-sm lg:text-lg bg-rosa-claro'   placeholder='Telefono' name='telefono'/>                     
-                       <textarea name="mensaje" id="" placeholder='Dejanos tu mensaje' className='rounded-md h-[8rem] p-[1rem] text-sm lg:text-lg bg-rosa-claro' required />
+                        <input type="text " className='rounded-md text-claro focus:border-[#Ecb469] transition-all ease-in-out duration-1000 border-none h-[2.2rem] xl:h-[3rem] px-[1rem] text-sm lg:text-lg bg-rosa-claro'  placeholder='Tu Nombre' name='nombre' required />            
+                        <input type="email" className='rounded-md text-claro focus:border-[#Ecb469] transition-all ease-in-out duration-1000 border-none h-[2.2rem] xl:h-[3rem]  px-[1rem] text-sm lg:text-lg bg-rosa-claro'  placeholder='Email' name='email' required />               
+                        <input type="tel" required className='rounded-md text-claro focus:border-[#Ecb469] transition-all ease-in-out duration-1000 border-none h-[2.2rem] xl:h-[3rem]  px-[1rem] text-sm lg:text-lg bg-rosa-claro'   placeholder='Telefono' name='telefono'/>                     
+                       <textarea name="mensaje" id="" placeholder='Dejanos tu mensaje' className='rounded-md text-claro focus:border-[#Ecb469] transition-all ease-in-out duration-1000 border-none h-[8rem] p-[1rem] text-sm lg:text-lg bg-rosa-claro' required />
                        
                        <div className={`${mensajeEnviado===true ? 'h-11' : 'h-0'} flex justify-center rounded-lg items-center transition-all duration-200 bg-green-600`}>
                     <p className={`${mensajeEnviado === true ? 'opacity-1' : 'opacity-0'} text-center my-auto text-lg  font-path font-bold`}>Mensaje enviado</p>
