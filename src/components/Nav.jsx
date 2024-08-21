@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useContext,useRef } from 'react';
 import Burguer from './Burguer';
+import ErizoContext from '../context/erizoContext';
+
 
 const Nav = () => {
-    const [clicked, setClicked] = useState(false);
-    const [activeLink, setActiveLink] = useState('');
+    const {clicked,setClicked} = useContext(ErizoContext)
+    const [activeLink, setActiveLink] = useState('inicio');
+    const menuRef = useRef(null);
+
+
 
     const handleScroll = (e, linkName) => {
         e.preventDefault(); // Prevenir el comportamiento por defecto del enlace
@@ -19,7 +24,7 @@ const Nav = () => {
             setActiveLink(linkName); // Actualiza el enlace activo
             setTimeout(() => {
                 setClicked(false);
-            }, 300);
+            }, 1000);
         }
     };
 
@@ -45,8 +50,23 @@ const Nav = () => {
         window.addEventListener('scroll', handleScrollSpy);
       }, []);
 
+      useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (menuRef.current && !menuRef.current.contains(e.target)) {
+                setClicked(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+      
+
     return (
-        <nav className="fixed top-0 w-full z-50 h-20 sombra flex items-center bg-rosa-claro">
+        <nav ref={menuRef} className="fixed top-0 w-full z-50 h-20 sombra flex items-center bg-rosa-claro">
             <div className="lg:mx-16 mx-5 w-full flex flex-row justify-between selection:bg-celeste">
                 <div>
                     <img src="/logofondo.jpg" alt="logo taller" className="w-12" />
@@ -138,9 +158,9 @@ const Nav = () => {
                     </a>
                     
                     <a
-                        href="#Opciones"
-                        onClick={(e) => handleScroll(e, 'otras Opciones')}
-                        className={activeLink === 'otras Opciones' ? 'link-active' : ''}
+                        href="#opciones"
+                        onClick={(e) => handleScroll(e, 'opciones')}
+                        className={activeLink === 'opciones' ? 'link-active' : ''}
                     >
                         Otras opciones
                     </a>

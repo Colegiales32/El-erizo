@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useContext } from 'react'
 import Nav from './components/Nav'
 import Introduccion from './components/Introduccion'
 import Cursos from './components/Cursos'
@@ -8,14 +8,16 @@ import Horneado from './components/Horneado'
 import Eventos from './components/Eventos'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
+import ErizoContext from './context/erizoContext'
 
 
 
 function App() {
- 
+  const {clicked,setClicked} = useContext(ErizoContext)
+
 
   return (
-    <div className="h-auto min-h-lvh bg-[#FFF3ED] font-calibri pb-10 md:bg-[url('/fondo.png')] bg-[url('/fondo-mobile.png')] bg-cover bg-repeat-y selection:bg-rosa-claro">
+    <div className={`h-auto min-h-lvh ${clicked ? 'overflow-none' : ''} bg-[#FFF3ED] font-calibri pb-10 md:bg-[url('/fondo.png')] bg-[url('/fondo-mobile.png')] bg-cover bg-repeat-y selection:bg-rosa-claro`}>
       <Nav/>
       <section id='inicio'>
       <Introduccion/>
