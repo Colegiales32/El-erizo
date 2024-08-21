@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col text-center text-sm text-claro'>
                     <p>Copyright 2024 . Todos los derechos reservados.</p>
-                    <p>Desarrollado por Lautaro La Rosa</p>
+                    <p>Desarrollado y diseñado por Lautaro La Rosa</p>
                 </div>
         </div>
     </div>
