@@ -10,7 +10,7 @@ const Cursos = () => {
     <div className="flex flex-col justify-between items-start">
         <h2 className="self-stretch h-[1.875rem] text-[#272727] text-[1.375rem] font-bold break-words">Alfareria</h2>
         <p className="self-stretch text-[#474747] text-[0.875rem] font-light leading-[1.625rem] break-words">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus nunc vel fringilla placerat. Nam sit amet metus mi. Vivamus in ligula et lacus varius sagittis. Suspendisse sem odio, pretium at magna sodales, consectetur malesuada eros.
+            Lorem ipsum dolor sit ameeet, consectetur adipiscing elit. Mauris luctus nunc vel fringilla placerat. Nam sit amet metus mi. Vivamus in ligula et lacus varius sagittis. Suspendisse sem odio, pretium at magna sodales, consectetur malesuada eros.
         </p>
         <div className="mx-auto md:mr-0 h-[2rem] flex justify-center items-center md:items-start mt-[1rem]">
             <Boton texto='Conocer mas'/>
