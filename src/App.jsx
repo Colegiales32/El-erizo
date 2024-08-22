@@ -17,7 +17,7 @@ function App() {
 
 
   return (
-    <div className={`h-auto min-h-lvh ${clicked ? 'overflow-none' : ''} bg-[#FFF3ED] font-calibri pb-10 md:bg-[url('/fondo.png')] bg-[url('/fondo-mobile.png')] bg-cover bg-repeat-y selection:bg-rosa-claro`}>
+    <div className={`h-auto min-h-lvh ${clicked ? 'overflow-none' : ''} bg-[#FFF3ED] font-calibri pb-10 md:bg-[url('/fondo.webp')] bg-[url('/fondo-mobile.webp')] bg-cover bg-repeat-y selection:bg-rosa-claro`}>
       <Nav/>
       <section id='inicio'>
       <Introduccion/>
