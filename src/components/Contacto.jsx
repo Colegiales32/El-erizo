@@ -43,19 +43,19 @@ const Contacto = () => {
             <h3 className='text-[1.6rem] lg:text-[1.4rem] mx-auto text-oscuro'>Medios de contacto</h3>
             <div className='flex mx-auto gap-[1.5rem] py-[1rem] flex-col justify-between'>
                 <div className='flex flex-row justify-start gap-[1rem]'>
-                    <img className='object-cover' src="/mail.png" alt="Mail" />
+                    <img className='object-cover' src="/mail.webp" alt="Mail" />
                     <p className='text-base text-claro font-light'>elerizoespaciocreativo@gmail.com</p>
                 </div>
                 <div className='flex flex-row justify-start gap-[1rem]'>
-                    <img src="/instagram.png" alt="Instagram" />
+                    <img src="/instagram.webp" alt="Instagram" />
                     <p className='text-base text-claro font-light'>@elerizoespaciocreatiivo</p>
                 </div>
                 <div className='flex flex-row justify-start gap-[1rem]'>
-                    <img src="/wp.png" alt="WhatsApp" />
+                    <img src="/wp.webp" alt="WhatsApp" />
                     <p className='text-base text-claro font-light'>XX-XXXX-XXXX</p>
                 </div>
                 <div className='flex flex-row justify-start gap-[1rem]'>
-                    <img src="/ubicacion.png" alt="Ubicacion" />
+                    <img src="/ubicacion.webp" alt="Ubicacion" />
                     <p className='text-base text-claro font-light'>Cabrera 5356, Palermo Hollywood.</p>
                 </div>
                

@@ -26,9 +26,9 @@ const Footer = () => {
         <div className='lg:hidden flex flex-col justify-between h-full py-[1.75rem]'>
         
                 <div className='flex flex-row justify-between items-center mx-auto w-[11rem]'>
-                    <img className='w-[2rem] h-[2rem]' src="/wp.png" alt="WhatsApp" />
-                    <img className='w-[3rem]' src="/logofondo.jpg" alt="Logo taller" />
-                    <img className='w-[2rem] h-[2rem]' src="/instagram.png" alt="" />
+                    <img className='w-[2rem] h-[2rem]' src="/wp.webp" alt="WhatsApp" />
+                    <img className='w-[3rem]' src="/logofondo.webp" alt="Logo taller" />
+                    <img className='w-[2rem] h-[2rem]' src="/instagram.webp" alt="" />
                 </div>
                 <div className='flex flex-col text-center text-sm text-claro'>
                     <p>Copyright 2024 . Todos los derechos reservados.</p>
