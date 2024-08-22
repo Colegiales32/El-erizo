@@ -8,9 +8,9 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_image_1 from '../../public/taller.jpg';
-import slide_image_2 from '../../public/laminadora.jpg';
-import slide_image_3 from '../../public/pinceles.jpg';
+import slide_image_1 from '../../public/taller.webp';
+import slide_image_2 from '../../public/laminadora.webp';
+import slide_image_3 from '../../public/pinceles.webp';
 
 
 
@@ -40,6 +40,15 @@ const Swiper = () => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
+        <SwiperSlide>
+          <img src={slide_image_1} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_2} alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_3} alt="slide_image" />
+        </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_1} alt="slide_image" />
         </SwiperSlide>

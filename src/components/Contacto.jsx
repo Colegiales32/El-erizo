@@ -61,7 +61,7 @@ const Contacto = () => {
                
             </div>
             <div className='h-[16rem] overflow-hidden'>
-                <img className='object-cover w-full h-full' src="/contacto.jpg" alt="" />
+                <img className='object-cover w-full h-full' src="/contacto.webp" alt="" />
             </div>
             
         </div>

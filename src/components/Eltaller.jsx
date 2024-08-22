@@ -8,9 +8,9 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_image_1 from '/taller.jpg';
-import slide_image_2 from '/laminadora.jpg';
-import slide_image_3 from '/pinceles.jpg';
+import slide_image_1 from '/taller.webp';
+import slide_image_2 from '/laminadora.webp';
+import slide_image_3 from '/pinceles.webp';
 
 
 
