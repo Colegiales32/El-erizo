@@ -12,7 +12,7 @@ const links = [
 
 const sitemapPath = path.join(__dirname, 'public', 'sitemap.xml'); // Cambia la ruta si es necesario
 
-const sitemapStream = new SitemapStream({ hostname: 'https://elerizo.netlify.app' });
+const sitemapStream = new SitemapStream({ hostname: 'https://elerizo.com' });
 const writeStream = createWriteStream(sitemapPath);
 
 // Manejo de errores en la escritura del archivo
