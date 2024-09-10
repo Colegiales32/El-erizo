@@ -5,14 +5,12 @@ const path = require('path');
 // Asegúrate de que estas rutas son correctas para tu aplicación
 const links = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
-  { url: '/about', changefreq: 'monthly', priority: 0.8 },
-  { url: '/contact', changefreq: 'monthly', priority: 0.8 },
   // Añade más rutas según sea necesario
 ];
 
 const sitemapPath = path.join(__dirname, 'public', 'sitemap.xml'); // Cambia la ruta si es necesario
 
-const sitemapStream = new SitemapStream({ hostname: 'https://elerizo.com' });
+const sitemapStream = new SitemapStream({ hostname: 'https://www.elerizo.com/' });
 const writeStream = createWriteStream(sitemapPath);
 
 // Manejo de errores en la escritura del archivo
