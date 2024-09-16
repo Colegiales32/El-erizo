@@ -69,7 +69,7 @@ const Nav = () => {
         <nav ref={menuRef} className="fixed top-0 opacity-ani w-full z-50 h-20 sombra flex items-center bg-rosa-claro">
             <div className="lg:mx-16 mx-5 w-full flex flex-row justify-between selection:bg-celeste">
                 <div>
-                    <img src="/logofondo.jpg" alt="logo taller" className="w-12" />
+                    <img src="/logofondo.webp" alt="logo taller" className="w-12" />
                 </div>
                 <div className="lg:flex hidden flex-row items-center gap-7 text-base">
                 <a
