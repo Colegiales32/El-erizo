@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='bg-rosa-claro w-full h-[11rem] lg:h-[8rem] absolute bottom-0'>
         <div className=' hidden mx-[8rem] h-full items-center my-auto lg:flex flex-row justify-between'>
             <div className='w-[11rem]'>
-                <img className='w-16 ml-0' src="/logofondo.jpg" alt="" />
+                <img className='w-16 ml-0' src="/logofondo.webp" alt="" />
 
             </div>
             <div className='flex flex-row gap-[1.75rem]'>
