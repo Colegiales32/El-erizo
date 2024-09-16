@@ -32,6 +32,7 @@ const Eventos = () => {
         imagen="/evento1.webp"
         texto="Evento de vino y ceramica en Nela Cafe, veni a disfrutar de un buen vino y llevate tu pieza"
         titulo="Cafe y ceramica"
+        link='https://elerizoespaciocreativo.tiendup.com/c'
         />
       
 

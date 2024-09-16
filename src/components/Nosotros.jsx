@@ -18,7 +18,7 @@ const Nosotros = () => {
         <img className="aspect-square lg:aspect-video w-full h-[20rem] object-cover" src="/nosotros.webp" alt="imagen de nosotros" />
       </div>
       <div ref={nosotrosRef[1]} className="fade-in-up-scroll my-auto lg:max-w-xl text-sm md:text-xl leading-7 md:leading-9 text-claro font-light">
-        <p className="w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada massa id commodo elementum. Morbi interdum nec orci non pretium. Maecenas pellentesque sapien eu lacus faucibus accumsan. In eu porttitor metus, bibendum cursus felis. Nulla vel fermentum metus. Mauris ut turpis sit amet massa volutpat faucibus quis eu leo. Integer id augue aliquet, posuere massa vel, sodales nulla.</p>
+        <p className="w-full">Desde 2015 que ofrecemos un espacio donde puedan venir a ejercitar ese lado creativo que todos tenemos, en un principio tuvimos diversidad de cursos relacionados a distintos tipos de manualidades, pero desde ya hace unos años que la ceramica copo cada centímetro del taller... Nuestro objetivo es que puedan descontectarse de la rutina, relajarse y aprender este hermoso oficio.</p>
       </div>
     </div>
   );

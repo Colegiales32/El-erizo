@@ -1,7 +1,7 @@
 import React from 'react'
 import Boton from './Boton'
 
-const Cards = ({imagen,titulo,texto
+const Cards = ({imagen,titulo,texto,link
 }) => {
   return (
     <div loading="lazy" className="w-[21rem] h-[22rem] flex-col overflow-hidden justify-start items-center rounded-[10px] inline-flex relative sombra bg-[#FCDED3]">
@@ -9,7 +9,7 @@ const Cards = ({imagen,titulo,texto
             <div className="mt-[1rem] mx-[1.8rem] flex-col justify-center items-center gap-1 inline-flex">
                 <h4 className="self-stretch text-center text-[#272727] text-[1rem] font-bold font-['Calibri']">{titulo}</h4>
                 <p className="self-stretch text-[#474747] text-base font-light font-['Calibri']">{texto}</p>
-                <Boton texto='Conocer mas'/>
+                <Boton enlace={link} texto='Quiero info'/>
             </div>
         </div>
 

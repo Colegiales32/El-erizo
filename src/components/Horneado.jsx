@@ -24,7 +24,7 @@ const Horneado = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus nunc vel fringilla placerat. Nam sit amet metus mi. Vivamus in ligula et lacus varius sagittis. Suspendisse sem odio, pretium at magna sodales, consectetur malesuada eros.
         </p>
         <div className="mx-auto md:ml-0 flex justify-center items-center md:items-start mt-[1rem]">
-            <Boton texto='Conocer mas'/>
+            <Boton enlace='https://wa.me/5491162346903?text=Hola%21%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20horneado' texto='Conocer mas'/>
         </div>
     </div>
 </div>
