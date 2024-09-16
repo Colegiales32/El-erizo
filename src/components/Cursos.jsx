@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useContext, useRef,useEffect } from 'react'
 import Boton from './Boton'
+import ErizoContext from '../context/erizoContext';
 
 const Cursos = () => {
+    const { registerRefs } = useContext(ErizoContext);
+
+    // Crea una referencia para el único elemento que quieres animar
+    const cursosRef = useRef(null);
+  
+    useEffect(() => {
+      // Registra la referencia del componente en el contexto
+      registerRefs('cursos', cursosRef);
+    }, [registerRefs]);
+
   return (
-    <div className="h-auto selection:bg-celeste mt-5 mb-16 md:mb-24 md:mt-8 md:h-min-[14rem] lg:h-[14rem] font-calibri p-[1rem] bg-[#FCDED3] rounded-[10px] mx-[1.2rem] md:mx-[6rem] lg:w-[46rem] lg:mx-auto flex flex-col md:flex-row gap-5 justify-between items-center sombra">
+    <div ref={cursosRef} className="fade-in-up-3 fade-in-up-scroll delay-3 h-auto selection:bg-celeste mt-5 mb-16 md:mb-24 md:mt-8 md:h-min-[14rem] lg:h-[14rem] font-calibri p-[1rem] bg-[#FCDED3] rounded-[10px] mx-[1.2rem] md:mx-[6rem] lg:w-[46rem] lg:mx-auto flex flex-col md:flex-row gap-5 justify-between items-center sombra">
         <div className="w-full h-full md:max-w-[14rem] md:min-w-[14rem]  overflow-hidden rounded-[10px]">
             <img className=' aspect-square w-full object-cover' src="/imagen-curso.webp" alt="imagen del curso" />
         </div>

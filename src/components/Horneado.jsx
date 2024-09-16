@@ -1,9 +1,19 @@
 import React from 'react'
+import { useEffect,useState,useContext,useRef } from 'react';
 import Boton from './Boton'
+import ErizoContext from '../context/erizoContext';
 
 const Horneado = () => {
+    const { registerRefs } = useContext(ErizoContext);
+    const horneadoRef = [useRef(null)];
+  
+    useEffect(() => {
+      // Registra las referencias en el contexto
+      horneadoRef.forEach(ref => registerRefs(ref));
+    }, [registerRefs]);
+    
   return (
-    <div className="h-auto selection:bg-celeste mt-5 mb-16 md:mb-24 md:mt-8 md:h-min-[14rem] lg:h-[14rem] font-calibri p-[1rem] bg-[#FCDED3] rounded-[10px] mx-[1.2rem] md:mx-[6rem] lg:w-[46rem] lg:mx-auto flex flex-col-reverse md:flex-row-reverse gap-5 justify-between items-center sombra">
+    <div ref={horneadoRef[0]} className="fade-in-up-scroll h-auto selection:bg-celeste mt-5 mb-16 md:mb-24 md:mt-8 md:h-min-[14rem] lg:h-[14rem] font-calibri p-[1rem] bg-[#FCDED3] rounded-[10px] mx-[1.2rem] md:mx-[6rem] lg:w-[46rem] lg:mx-auto flex flex-col-reverse md:flex-row-reverse gap-5 justify-between items-center sombra">
 
         <div className="w-full h-full md:max-w-[14rem] md:min-w-[14rem]  overflow-hidden rounded-[10px]">
             <img className=' aspect-square w-full object-cover' src="/horneado.webp" alt="imagen del curso" />

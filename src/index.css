@@ -19,6 +19,60 @@ html,body {
 
   body {overflow-x: hidden;}
 
+
+  /* Define la animación con @keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0; /* Empieza invisible */
+    transform: translateY(100px); /* Comienza 100px más abajo */
+  }
+  to {
+    opacity: 1; /* Termina completamente visible */
+    transform: translateY(0); /* Termina en su posición original */
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+/* Clase base para ocultar los elementos hasta que sean visibles */
+.fade-in-up-scroll {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transform: translateY(50px); /* Posición inicial fuera de la vista */
+}
+
+/* Clase para elementos que están visibles */
+.fade-in-up-scroll.visible {
+  opacity: 1;
+  transform: translateY(0); /* Se restablece la posición original */
+  animation: fadeInUp 0.8s forwards; /* Aplicar la animación */
+}
+
+/* Clase para aplicar la animación */
+.fade-in-up {
+  opacity: 0; /* Estado inicial de opacidad */
+  animation: fadeInUp 1s ease-in-out forwards; /* Aplica la animación */
+}
+.fade-in-up-2 {
+  opacity: 0; /* Estado inicial de opacidad */
+  animation: fadeInUp 1.4s ease-in-out forwards; /* Aplica la animación */
+}
+.fade-in-up-3 {
+  opacity: 0; /* Estado inicial de opacidad */
+  animation: fadeInUp 1.8s ease-in-out forwards; /* Aplica la animación */
+}
+
+.opacity-ani {
+  animation:opacity 1s ease-in-out forwards ;
+}
+
   button:hover {
     box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.25);
   }

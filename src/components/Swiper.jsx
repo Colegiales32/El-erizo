@@ -24,7 +24,7 @@ const Swiper = () => {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={'auto'}
+        slidesPerView={'3'}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
