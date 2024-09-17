@@ -19,9 +19,9 @@ const Cursos = () => {
             <img className=' aspect-square w-full object-cover' src="/imagen-curso.webp" alt="imagen del curso" />
         </div>
     <div className="flex flex-col items-start justify-between md:max-h-[14rem] md:min-h-[14rem]">
-        <h2 className="self-stretch h-[1.875rem] text-[#272727] text-[1.375rem] mt-0 font-bold break-words">Alfareria</h2>
-        <p className="self-stretch text-[#474747] text-[0.875rem] font-light leading-[1.625rem] break-words">
-        El taller tiene una modalidad libre, no hay niveles, cada alumno va a su ritmo. En cada curso hay alumnos principiantes, intermedios y avanzados.Nuestros profes te guiarán durante todo el proceso de torneado, retorneado, horneado, y decoración que más te guste. Animate a traer tus propias ideas sobre lo que queres crear. 
+        <h2 className="self-stretch h-[1.875rem] text-oscuro text-[1.375rem] mt-0 font-bold break-words">Alfareria</h2>
+        <p className="self-stretch text-claro text-[0.875rem] leading-[1.625rem] break-words">
+        El taller tiene una modalidad libre, no hay niveles, cada alumno va a su ritmo. En cada curso hay alumnos principiantes, intermedios y avanzados. Nuestros profes te guiarán durante todo el proceso de torneado, retorneado, horneado, y decoración que más te guste. Animate a traer tus propias ideas sobre lo que queres crear. 
 
         </p>
         <div className="mx-auto md:mr-0 h-[3rem] flex justify-center items-center md:items-start">

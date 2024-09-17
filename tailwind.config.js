@@ -12,8 +12,8 @@ export default {
         
       },
       colors : {
-        'oscuro' : '#272727',
-        'claro' : '#474747',
+        'oscuro' : '#000000',
+        'claro' : '#272727',
         'rosa-claro' : '#FCDED3',
         'celeste' : '#54AFA6'
       },
