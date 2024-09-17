@@ -30,7 +30,7 @@ const Eltaller = () => {
     <div id='taller' className='flex flex-col lg:flex-row mt-5 md:mt-8 mx-[1.2rem] md:mx-[7.2rem] xl:mx-auto justify-between max-w-[75rem] mb-24'>
         <div ref={tallerRef[0]} className='fade-in-up-scroll lg:w-[20rem] mb-5'>
             <p className='my-auto ml-0 lg:max-w-xl text-sm md:text-xl leading-7 text-oscuro md:leading-10'>
-            <span className='text-7xl text-oscuro font-bold'>El taller</span> cuenta con dos aulas con 10 tornos en cada una . Sumado a otro espacio común donde contarán laminadora, estrusorar , moldes y con más de 15 colores de esmaltes, engobes, pigmentos y óxidos.
+            <span className='text-5xl text-oscuro font-bold'>El taller</span> cuenta con dos aulas con 10 tornos en cada una . Sumado a otro espacio común donde contarán laminadora, estrusorar , moldes y con más de 15 colores de esmaltes, engobes, pigmentos y óxidos.
             </p>
         </div>
 

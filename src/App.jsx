@@ -30,22 +30,22 @@ function App() {
       <Introduccion/>
       </section>
       <section  id='cursos'>
-      <h2 className='fade-in-up-2 font-calibri font-bold text-oscuro text-[1.5rem] m-auto text-center w-fit'>Nuestros Cursos</h2>
+      <h2 className='fade-in-up-2 font-calibri font-bold text-oscuro text-titulo m-auto text-center w-fit'>Nuestros Cursos</h2>
       <Cursos/>
       </section>   
       <section loading="lazy" id='nosotros'>
-      <h2 ref={appRef[3]} className='fade-in-up-scroll font-calibri text-oscuro font-bold text-[1.5rem] m-auto text-center w-fit'>Nosotros</h2>
+      <h2 ref={appRef[3]} className='fade-in-up-scroll font-calibri text-oscuro font-bold text-titulo m-auto text-center w-fit'>Nosotros</h2>
       <Nosotros/>
       </section>
       <Eltaller/>
       <section  id='opciones'>
-      <h2 ref={appRef[0]} className='fade-in-up-scroll font-calibri font-bold text-oscuro text-[1.5rem] m-auto text-center w-fit'>Otras Opciones</h2>
+      <h2 ref={appRef[0]} className='fade-in-up-scroll font-calibri font-bold text-oscuro text-titulo m-auto text-center w-fit'>Otras Opciones</h2>
       <p  ref={appRef[1]} className='fade-in-up-scroll text-sm md:text-xl text-claro mt-5 md:mt-8 leading-7 md:leading-9 mx-[1.2rem] text-center md:mx-[7.2rem]'>En el erizo no solo damos clases si no que tambien brindamos otros servicios y armamos eventos pensados para que disfrutes y aprendas:</p>
       <Horneado/>
       <Eventos/>
       </section>
       <section  id='contacto'>
-      <h2 ref={appRef[2]} className='fade-in-up-scroll font-calibri font-bold text-oscuro text-[1.5rem] mt-5 md:mt-8 mx-auto text-center w-fit'>Contactanos</h2>
+      <h2 ref={appRef[2]} className='fade-in-up-scroll font-calibri font-bold text-oscuro text-titulo mt-5 md:mt-8 mx-auto text-center w-fit'>Contactanos</h2>
       <Contacto/>
       </section>
 

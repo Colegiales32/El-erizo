@@ -19,6 +19,9 @@ export default {
       },
       backgroundImage : {
         'fondo' : "url('/public/fondo.png)",
+      },
+      fontSize : {
+        titulo : ['2rem']
       }
     },
   },
