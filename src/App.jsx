@@ -38,13 +38,13 @@ function App() {
       <Nosotros/>
       </section>
       <Eltaller/>
-      <section loading="lazy" id='opciones'>
+      <section  id='opciones'>
       <h2 ref={appRef[0]} className='fade-in-up-scroll font-calibri font-bold text-oscuro text-[1.5rem] m-auto text-center w-fit'>Otras Opciones</h2>
       <p  ref={appRef[1]} className='fade-in-up-scroll text-sm md:text-xl text-claro mt-5 md:mt-8 font-light leading-7 md:leading-9 mx-[1.2rem] text-center md:mx-[7.2rem]'>En el erizo no solo damos clases si no que tambien brindamos otros servicios y armamos eventos pensados para que disfrutes y aprendas:</p>
       <Horneado/>
       <Eventos/>
       </section>
-      <section loading="lazy" id='contacto'>
+      <section  id='contacto'>
       <h2 ref={appRef[2]} className='fade-in-up-scroll font-calibri font-bold text-oscuro text-[1.5rem] mt-5 md:mt-8 mx-auto text-center w-fit'>Contactanos</h2>
       <Contacto/>
       </section>

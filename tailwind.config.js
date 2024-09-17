@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily :{
-        calibri : ['Calibri', 'sans-serif' ]
+        calibri : ['Poiret One', 'sans-serif' ],
+        caveat : ['Caveat', 'sans-serif' ]
+        
       },
       colors : {
         'oscuro' : '#272727',
