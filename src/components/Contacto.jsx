@@ -71,7 +71,7 @@ const Contacto = () => {
             <div className='flex mx-auto gap-[1.5rem] py-[1rem] flex-col justify-between'>
                 <div className='flex flex-row justify-start items-center gap-[1rem]'>
                     <img className='object-cover' src="/mail.webp" alt="Mail" />
-                    <p className='text-base text-claro'>elerizoespaciocreativo@gmail.com</p>
+                    <p className='text-base text-claro'>consultas@elerizo.com</p>
                 </div>
                 <div className='flex flex-row justify-start items-center gap-[1rem]'>
                     <img src="/instagram.webp" alt="Instagram" />
