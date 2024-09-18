@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.sombratexto {
+  text-shadow: 4px 4px 5px rgba(0,0,0,0.8);
+}
+
 * {
   box-sizing: border-box;
 }

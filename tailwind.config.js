@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily :{
         calibri : ['Poiret One', 'sans-serif' ],
-        caveat : ['Caveat', 'sans-serif' ]
+        intro : ['Shadows Into Light', 'sans-serif' ]
         
       },
       colors : {
