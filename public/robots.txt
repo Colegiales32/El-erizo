@@ -4,7 +4,6 @@ Disallow:
 
 # Evita que se indexen las imágenes en el dominio de Netlify
 User-agent: *
-Disallow: https://elerizo.netlify.app/
 
 # Bloquea carpetas innecesarias o privadas
 Disallow: /admin/
