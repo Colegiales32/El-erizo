@@ -4,7 +4,7 @@ Disallow:
 
 # Evita que se indexen las imágenes en el dominio de Netlify
 User-agent: *
-Disallow: https://tu-sitio.netlify.app/
+Disallow: https://elerizo.netlify.app/
 
 # Bloquea carpetas innecesarias o privadas
 Disallow: /admin/
@@ -12,7 +12,7 @@ Disallow: /login/
 Disallow: /public/files/
 
 # Permite la indexación de las imágenes relevantes en tu dominio principal
-Allow: /public/images/
+Allow: /public
 
 # Sitemap de tu sitio
 Sitemap: https://www.elerizo.com/sitemap.xml
