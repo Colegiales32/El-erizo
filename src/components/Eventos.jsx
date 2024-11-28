@@ -20,17 +20,17 @@ const Eventos = () => {
       <div loading="lazy" ref={eventosRef[1]} className='fade-in-up-scroll mt-5 md:mt-8 flex flex-col lg:flex-row justify-between mx-[1.2rem] items-center md:mx-auto max-w-[75rem] gap-4'>
         <Cards 
         imagen="/evento3.webp"
-        texto="Tenemos un formato de experiencia ceramica de un solo encuentro donde los participantes van a aprender a hacer piezas en forma manual guiados por un ceramista. Nos encargamos de llevar todos los materiales y herramientas para que lo puedan llevar a cabo , luego retiramos las piezas par aque puedan ser hornadas y esmaltadas en el taller. Este formato es ideal para empresas , despedidas o cumpleaños."
+        texto="Eventos privados o corporativos. Tenemos un formato de experiencia ceramica de un solo encuentro donde los participantes van a aprender a hacer piezas en forma manual guiados por un ceramista. Nos encargamos de llevar todos los materiales y herramientas para que lo puedan llevar a cabo ."
         titulo="Eventos privados"
         />
         <Cards 
         imagen="/evento2.webp"
-        texto="Veni a aprender de ceramica y vino todo en un mismo encuentro. De la mano de Nela cafe ofrecemos la posibilidad de aprender a hacer una pieza de ceramica y disfrutar de una cata de vinos guiada por una sommelier y un tapeo delicioso pensado especialmente para este evento. Consultanos proximas fechas."
+        texto="Veni a aprender de ceramica y vino todo en un mismo encuentro. De la mano de Nela cafe ofrecemos la posibilidad de aprender a hacer una pieza de ceramica y disfrutar de una cata de vinos guiada por una sommelier y un delicioso tapeo. Consultanos proximas fechas."
         titulo="Vino y ceramica"
         />
         <Cards 
         imagen="/evento1.webp"
-        texto=" Si queres compartir un momento creativo , acompañado de cafe de especialidad y excelente pasteleria, en Nela cafe (Salvador 5847) encontraran nuestras piezas listas para ser intervenidas con acuarelas especiales para ceramica. Podes reservar en el momento que quieras para decorar una pieza ceramica y disfrutar de un desayuno o merienda en el cafe. Luego nos encargaremos de esmaltar y hornear la pieza pintada. La podrán retirar a partir de los 7 dias posteriores a la reserva. Consultanos para reservar ."
+        texto="Si queres compartir un momento creativo , acompañado de cafe de especialidad y excelente pasteleria, en Nela cafe (Salvador 5847) encontraran nuestras piezas listas para ser intervenidas con acuarelas especiales para ceramica. Solo tenes que reservar el dia para ir a Nela Cafe.."
         titulo="Cafe y ceramica"
         link='https://elerizoespaciocreativo.tiendup.com/c'
         />
