@@ -5,10 +5,10 @@ const Cards = ({ imagen, titulo, texto, link }) => {
   return (
     <div
       loading="lazy"
-      className="w-[21rem] font-calibri h-auto flex-col overflow-hidden justify-start items-center rounded-[10px] inline-flex relative sombra bg-[#FCDED3]"
+      className="w-[23rem] font-calibri h-auto flex-col overflow-hidden justify-start items-center rounded-[10px] inline-flex relative sombra bg-[#FCDED3]"
     >
       <img
-        className="w-full object-cover h-[10rem]"
+        className="w-full object-cover h-[14rem]"
         src={imagen}
         alt="imagen del evento de ceramica"
       />
@@ -23,6 +23,7 @@ const Cards = ({ imagen, titulo, texto, link }) => {
       </div>
     </div>
   );
+
 };
 
 export default Cards;
