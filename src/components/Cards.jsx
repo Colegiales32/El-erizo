@@ -5,7 +5,7 @@ const Cards = ({ imagen, titulo, texto, link }) => {
   return (
     <div
       loading="lazy"
-      className="w-[21rem] font-calibri h-[40rem] flex-col overflow-hidden justify-start items-center rounded-[10px] inline-flex relative sombra bg-[#FCDED3]"
+      className="w-[21rem] font-calibri h-auto flex-col overflow-hidden justify-start items-center rounded-[10px] inline-flex relative sombra bg-[#FCDED3]"
     >
       <img
         className="w-full object-cover h-[10rem]"
@@ -17,7 +17,7 @@ const Cards = ({ imagen, titulo, texto, link }) => {
         {/* Mantén el párrafo a 1rem de distancia del título */}
         <p className="text-claro mt-[0.5rem] text-base font-light">{texto}</p>
         {/* Esto empuja el botón al final del contenedor */}
-        <div className="mt-auto mx-auto mb-[1rem]">
+        <div className="mx-auto my-[1rem]">
           <Boton enlace={link} texto="Quiero info" />
         </div>
       </div>

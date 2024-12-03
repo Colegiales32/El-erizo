@@ -27,7 +27,7 @@ const Eventos = () => {
         imagen="/evento2.webp"
         texto="Veni a aprender de ceramica y vino todo en un mismo encuentro. De la mano de Nela cafe ofrecemos la posibilidad de aprender a hacer una pieza de ceramica y disfrutar de una cata de vinos guiada por una sommelier y un delicioso tapeo. Consultanos proximas fechas."
         titulo="Vino y ceramica"
-        />
+        link='https://wa.me/5491162346903?text=Hola%21+quiero+mas+info+y+fechas+sobre+el+proximo+vino+y+ceramica%21'/>
         <Cards 
         imagen="/evento1.webp"
         texto="Si queres compartir un momento creativo , acompañado de cafe de especialidad y excelente pasteleria, en Nela cafe (Salvador 5847) encontraran nuestras piezas listas para ser intervenidas con acuarelas especiales para ceramica. Solo tenes que reservar el dia para ir a Nela Cafe.."
