@@ -11,6 +11,7 @@ const Cards = ({ imagen, titulo, texto, link }) => {
         className="w-full object-cover h-[14rem]"
         src={imagen}
         alt="imagen del evento de ceramica"
+        loading="lazy"
       />
       <div className="flex flex-col h-full mx-[1.8rem]">
         <h4 className="text-center text-oscuro text-[1rem] font-bold">{titulo}</h4>
