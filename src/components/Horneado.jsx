@@ -21,7 +21,7 @@ const Horneado = () => {
     <div className="flex flex-col justify-between lg:h-[12rem] items-start">
         <h2 className="self-stretch h-[1.875rem] text-oscuro text-[1.375rem] font-bold break-words">Servicio de Horneado</h2>
         <p className="self-stretch text-claro text-[0.875rem] leading-[1.625rem] break-words">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus nunc vel fringilla placerat. Nam sit amet metus mi. Vivamus in ligula et lacus varius sagittis. Suspendisse sem odio, pretium at magna sodales, consectetur malesuada eros.
+            Contamos con tres hornos para baja o alta temperatura. Podes traer tus piezas para que nosotros las horneemos en el taller. Tambien podemos esmaltarlas con transparente brillante. Consultanos para cotizaciones y valores de referencia.
         </p>
         <div className="mx-auto md:ml-0 flex justify-center items-center md:items-start mt-[1rem]">
             <Boton enlace='https://wa.me/5491162346903?text=Hola%21%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20horneado' texto='Conocer mas'/>
